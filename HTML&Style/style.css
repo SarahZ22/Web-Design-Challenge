@@ -1,0 +1,60 @@
+.databody{
+    color: black;
+}
+
+#navlink{
+    color: purple
+}
+
+table{
+    text-align: center;
+}
+
+#drop{
+    color: black;
+}
+
+.title{
+    text-align: center;
+    color: black;
+}
+
+footer{
+    text-align: center;
+}
+
+#compare{
+    text-align: center;
+}
+
+p{
+    color: darkslategray;
+}
+
+.dropdown{
+    position: fixed;
+    right: 60px;
+    z-index: 1;
+}
+h2{
+    color: purple
+}
+
+h3{
+    color: black;
+}
+
+#visuals{
+    color:#20c997;
+    text-align: center;
+}
+
+.VZ{
+    text-align: center;
+}
+
+figcaption{
+    position: relative;
+    left: 22%;
+    font-size: 0.6em;
+}
