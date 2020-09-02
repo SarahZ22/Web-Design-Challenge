@@ -19,13 +19,13 @@
 
 <!-- Create the navigation bar at the top -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <strong><a class="navbar-brand" href="index.html">LATITUDE <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-house-fill" fill="aqua" xmlns="http://www.w3.org/2000/svg">
+        <strong><a class="navbar-brand" href="index.html">LATITUDE <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-house-fill" fill="#F9E79F" xmlns="http://www.w3.org/2000/svg">
         <path fill-rule="evenodd" d="M8 3.293l6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
         <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
         </svg> Home</a></strong>
             <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false"></button>
-        <div class="collapse navbar-collapse" id="navbarColor01">
-            <ul class="navbar-nav mr-auto">
+        <div class="navbar navbar-collapse" id="navbarColor01">
+            <ul class="nav navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item">
                     <a class="nav-link" id="navlink" href="comparison.html">
                     <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-grid" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -41,7 +41,7 @@
                     <path d="M4 11a1 1 0 1 1 2 0v1a1 1 0 1 1-2 0v-1zm6-4a1 1 0 1 1 2 0v5a1 1 0 1 1-2 0V7zM7 9a1 1 0 0 1 2 0v3a1 1 0 1 1-2 0V9z"/>
                     </svg>
                 Data</a>
-                 </li>
+                </li>
                 <li class="nav-item dropdown">
                     <a class="btn btn-secondary dropdown-toggle" id="drop" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-bar-chart-line" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -70,7 +70,7 @@
                         <path fill-rule="evenodd" d="M2 10.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"/>
                         </svg>
                         Wind Speed</a>
-                    </div> 
+                    </div>
                 </li>
             </ul>
         </div>
@@ -105,23 +105,25 @@
                 <hr>
                 <div class="row">
                     <div class="col-md-6">
-                        <a id="visuals" href="maxtemp.html"> Latitude vs. Max Temperature <img src="../Resources/Assets-Images/Fig1.png" alt="Lat vs. Max Temperature" width="300" height="200"></a>
+                        <a id="visuals" href="maxtemp.html"><p>Latitude vs. Max Temperature</p><img src="../Resources/Assets-Images/Fig1.png" class="img-fluid" alt="Lat vs. Max Temperature" width="300" height="200"></a>
                     </div>
                     <div class="col-md-6">
-                        <a id="visuals" href="windspeed.html"> Latitude vs. Wind Speed <img src="../Resources/Assets-Images/Fig4.png" alt="Lat vs. Wind Speed" width="300" height="200"></a>
+                        <a id="visuals" href="windspeed.html"><p>Latitude vs. Wind Speed</p><img src="../Resources/Assets-Images/Fig4.png" class="img-fluid" alt="Lat vs. Wind Speed" width="300" height="200"></a>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-6">
-                        <a id="visuals" href="humidity.html"> Latitude vs. Humidity <img src="../Resources/Assets-Images/Fig2.png" alt="Lat vs. Humidity" width="300" height="200"></a>
+                        <a id="visuals" href="humidity.html"><p>Latitude vs. Humidity</p><img src="../Resources/Assets-Images/Fig2.png" class="img-fluid" alt="Lat vs. Humidity" width="300" height="200"></a>
                     </div>
                     <div class="col-md-6">
-                        <a id="visuals" href="cloudiness.html"> Latitude vs. Cloudiness <img src="../Resources/Assets-Images/Fig3.png" alt="Lat vs. Cloudiness" width="300" height="200"></a>
+                        <a id="visuals" href="cloudiness.html"><p>Latitude vs. Cloudiness</p><img src="../Resources/Assets-Images/Fig3.png" class="img-fluid" alt="Lat vs. Cloudiness" width="300" height="200"></a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 </body>
 
 <!-- Footer -->
